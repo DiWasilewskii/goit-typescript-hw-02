@@ -1,7 +1,11 @@
-.list {
+.container {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
   justify-content: center;
-  margin-bottom: 15px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.wrap {
+  flex-basis: calc((100% - 40px) / 5);
 }

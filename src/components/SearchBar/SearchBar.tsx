@@ -3,7 +3,7 @@ import { Formik, Form, Field, FormikHelpers } from "formik";
 import toast, { Toaster } from "react-hot-toast";
 import css from "./SearchBar.module.css";
 import { FiSearch } from "react-icons/fi";
-import { IFormValues, ISearchBarProps } from "./Search.types.ts";
+import { IFormValues, ISearchBarProps } from "./Search.types";
 
 const SearchBar = forwardRef<HTMLElement, ISearchBarProps>(
   function SearchBarComponent({ onSearch }, ref) {
