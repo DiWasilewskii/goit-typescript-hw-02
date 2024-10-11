@@ -1,10 +1,18 @@
-.button {
-  border-radius: 5px;
-  border: none;
-  height: 30px;
-  padding: 4px 10px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.button:hover {
-  background-color: #ddd;
+.loadMoreBtn {
+  margin: 20px 0;
+  padding: 10px;
+  width: 100px;
+  background-color: #2196f3;
+  border-radius: 4px;
+}
+
+.loadMoreBtn:hover {
+  background-color: #04aa6d; /* Green */
+  color: white;
 }
